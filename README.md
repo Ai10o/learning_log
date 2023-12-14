@@ -9,21 +9,32 @@ Learning Logs — это проект, основанный на книге "Pyt
    `https://github.com/Ai10o/learning_log.git`
 
 2. Перейдите в каталог проекта
+3. Создайте виртуальную среду для проекта:
 
-3. Установите необходимые зависимости:
+   python -m venv venv
+
+4. Активируйте виртуальную среду:
+
+   Для Windows:
+   `venv\Scripts\activate`
+   
+   Для macOS и Linux:
+   `source venv/bin/activate`
+   
+5. Установите необходимые зависимости:
 
    `pip install -r requirements.txt`
 
-4. Выполните миграции для создания структуры базы данных:
+6. Выполните миграции для создания структуры базы данных:
 
    `python manage.py makemigrations`
    
    `python manage.py migrate`
 
-6. Создайте суперпользователя для доступа к админ-панели:
+7. Создайте суперпользователя для доступа к админ-панели:
 
    `python manage.py createsuperuser`
 
-7. Запустите сервер разработки:
+8. Запустите сервер разработки:
 
    `python manage.py runserver`
