@@ -6,15 +6,15 @@ Learning Logs — это проект, основанный на книге "Pyt
 
 1. Клонирование репозитория
    Чтобы клонировать репозиторий, необходимо ввести следующую команду:
-   'https://github.com/Ai10o/learning_log.git'
+   `https://github.com/Ai10o/learning_log.git`
    
 2. Запустите виртуальное окружение:
-'source ll_env/bin/activate'
+`source ll_env/bin/activate`
 
 4. Установка зависимостей
    
-   Установим зависимости: 'pip install -r requirements.txt'
+   Установим зависимости: `pip install -r requirements.txt`
    
 6. Запуск сервера
 
-   Запустим сервер: 'python manage.py runserver'
+   Запустим сервер: `python manage.py runserver`
