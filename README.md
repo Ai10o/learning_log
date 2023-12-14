@@ -2,13 +2,27 @@
 ## Описание проекта
 Learning Logs — это проект, основанный на книге "Python Crash Course, 2nd Edition" автора Эрика Мэттиса. Это веб-приложение на Django, позволяющее пользователям вести журнал об их процессе обучения.
 
-## Установка и запуск
+## Установка
 
-1. Чтобы клонировать репозиторий, необходимо ввести следующую команду:
+1. Клонируйте репозиторий проекта:
+
    `https://github.com/Ai10o/learning_log.git`
-   
-2. Запустим виртуальное окружение:`source ll_env/bin/activate`
 
-3. Установим зависимости: `pip install -r requirements.txt`
-   
-4. Запустим сервер: `python manage.py runserver`
+2. Перейдите в каталог проекта
+
+3. Установите необходимые зависимости:
+
+   `pip install -r requirements.txt`
+
+4. Выполните миграции для создания структуры базы данных:
+
+   `python manage.py makemigrations`
+   `python manage.py migrate`
+
+5. Создайте суперпользователя для доступа к админ-панели:
+
+   `python manage.py createsuperuser`
+
+6. Запустите сервер разработки:
+
+   `python manage.py runserver`
